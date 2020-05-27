@@ -9,7 +9,7 @@ const toggle = () => {
 
 let themeOption = localStorage.getItem('theme')
 
-themeOption === 'dark' ? stylesSheet.setAttribute('href', './darkTheme.css') : stylesSheet.setAttribute('href', './style.ss')
+themeOption === 'dark' ? stylesSheet.setAttribute('href', './darkTheme.css') : stylesSheet.setAttribute('href', './style.css')
 themeOption === 'dark' ? dark.checked = true : dark.checked = false
 
 const saveTheme = () => {
